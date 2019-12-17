@@ -1,0 +1,52 @@
+libellé,type,taille ,descriptif
+CL_ID,int,5,identifiant client
+CL_nom,varchar,50,nom des clienyts
+CL_adresse,varchar,255,adresse clients
+CL_code postal,int,5,code postal
+CL_ville,varchar,50,ville 
+CL_tel,inter,10,telephone
+CL_mail,varchar,150,email clients
+FM_ID ,int,5,identifiants fournisseurs
+FM_nom,varchar,50,nom fournisseurs
+FM_adresse,varchar,255,adresse fournisseurs
+FM_ville ,inter,5,ville founisseurs
+FM_tel,int,10,telephone
+FM_numéro_siret,int,20,numéro siret des fournisseurs materiels
+FM_mail,varchar,50,mail
+PU_nom,varchar,50,nom
+PU_adresse,varchar,250,adresse
+PU_TEL,int,10,telephone
+PU_mail,varchar,50,MAIL
+MP_ID,int,10,identifiant
+MP_NOM,varchar,50,NOM
+MP_quantité,int,10,quantité de micropousse
+MP_prix,float,10,prix
+MP_date plantation,date,jj/mm/aaaa,date de plantation
+MP_date de recolte,date,jj/mm/aaaa,date de recolte
+CG_ID,int,5,identifiant commande fournisseur
+CG_date commande,date,jj/mm/aaaa,date de la commande fournisseur
+CG_date livraison,date,jj/mm/aaaa,date de livraison fournisseur
+CG_quantité,int,10,quantité de graines
+CG_prix,float,10,prix de la commande fournisseur
+CC_ID,int,5,identifiant commande clients
+CC_date commande,date,jj/mm/aaaa,date de la commande clients
+CC_date livraison ,date,jj/mm/aaaa,date de la commande clients
+CC_prix,float,10,prix de la commande clients
+MA_ID,int,5,idenetifiant des serres/graines
+MA_nom,varchar,50,nom des serres/graines
+MA_quantité,float,10,quantité des serres
+CM_ID,int,10,identifiant commande materièl
+CM_date commande,date,jj/mm/aaaa,date de la commande
+CM_date livraison,date,jj/mm/aaaa,date de livraison
+CM_prix unitaire,float,10,prix unitaire materièl
+CM_prix total,float,10,prix total de la commande materièl
+FG_ID,int,10,identifiants fournisseurs graines
+FG_numero siret,int,10,numero siret fournisseur
+FG_nom,varchar,50,nom fournisseurs graines
+FG_adresse,varchar,250,adresse fournisseurs graines
+FG_ville ,varchar,50,ville founisseurs graines
+FG_ tel,int,10,telephone fournisseur graines
+FG_mail,varchar,100,mail fournisseur graines
+GR_ID,int,10,identifiants graines
+GR_nom,varchar,50,nom des grainres
+GR_quantité,int,10,quantité graines

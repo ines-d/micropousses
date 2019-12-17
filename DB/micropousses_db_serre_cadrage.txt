@@ -6,15 +6,23 @@ Date :
 
 Identification des parties, noms et coordonnées
 Organisme demandeur, interlocuteur : paysan urbain 
-Équipe projet : Dridi ines, Mosbah hachem, lucido yoann, kojic sacha 
+Équipe projet : Dridi ines, Mosbah hachem, Lucido yoann, Kojic sacha 
 Tuteurs : cisse samba 
 
 Identification du projet :
 
 Nom du projet : « Projet micropousses_ »
+
 Nature du projet : projet mené par une équipe dev_data dans le cadre de micropousses
 
-Ce projet a pour but de concevoir et structurer une base de donnée pour l'organisation de la serre 
+Ce projet a pour but de concevoir et structurer une base de donnée pour l'organisation de la serre et du matériel utilisé pour la production des micropousses.
+Comme matériel : 
+	- tables.
+	- ventilo.
+	- Bidons.
+	- terrines.
+	- capteur "température".
+	
 Ce projet aura pour délais 5 jours
 
 
