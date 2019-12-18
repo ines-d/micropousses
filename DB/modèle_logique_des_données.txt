@@ -1,0 +1,30 @@
+    Modèle Logique De Données
+
+
+
+
+Clients (CL_ID,CL_nom,CL_adresse,CL_code postale,CL_ville,CD_TEL,CL_mail )
+
+Commandes Clients(CC_ID,#Cl_IDCC_numéro de commande,CC_date de commande,CC_date de livraison,CC_prix,)
+
+Microupousses(MP_ID,#CC_ID,#GR_ID,MP_nom,MP_date de plantation,MP_date de recolte,MP_prix unitaire,MP_quantité)
+
+Graines(GR_ID,#FG_ID,GR_nom,GR_quantité)
+
+Materièls(MA_ID,#FM_ID,MA_nom,MA_quantité)
+
+Fournisseur Graines (FG_ID,#CG_ID,FG_numéro siret,FG_nom,FG_adresse,FG_code postale,FG_ville,FG_tel,FG_mail)
+
+Fournisseur Matreièls(FM_ID,#CM_ID,FM_numéro siret,FM_nom,FM_adressse,FM_code postale,FM_ville,FM_tel,FM_mail)
+
+Commande Graines(CG_ID,CG_numéro de commande,CG_date de commande,CG_date livraison,CG_prix)
+
+Commande Matérièls(CM_ID,CM_numéro de commande,CM_date de commande,CM_date livraison, CG_prix)
+
+Paysan Urbain(PU_ID,PU_numero siret, PU_nom,PU_adresse,PU_ville,PU_tel,PU_mail)
+
+
+
+
+
+
